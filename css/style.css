@@ -1,5 +1,9 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/363/original/pexels-moose-photos-170195-1037993.jpg?1717755246");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-position: 0%;
   font-family: sans-serif;
 }
 
@@ -7,6 +11,7 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 36px;
+  margin: 0 0 30px;
 }
 
 h2 {
@@ -23,12 +28,13 @@ select {
 }
 
 .container {
-  max-width: 600px;
-  margin: 60px auto;
+  max-width: 650px;
+  margin: 30px auto;
   background: white;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(53, 53, 60, 0.232) 0px 7px 29px 0px;
   border-radius: 10px;
+  opacity: 0.7;
 }
 
 .city {
@@ -62,4 +68,5 @@ footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 5px;
 }
